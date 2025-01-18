@@ -1,0 +1,105 @@
+/*
+Template Name: Wedding
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************blog****************/
+.center_blog {
+background-image: url(../img/25.jpg);
+background-position: center;
+}
+.blog_1r1 .tags li a {
+border: 1px solid #fadac2;
+margin: 0px 2px 6px 0px;
+padding: 8px 16px 8px 16px;
+display: inline-block;
+font-size: 14px;
+transition: 0.3s;
+border-radius:3px;
+}
+.blog_1r1 .tags li a:hover {
+background-color:#e18037;
+color:#fff;
+border: 1px solid #e18037;
+}
+.blog_1dt1 blockquote {
+margin: 20px 0 20px;
+font-size: 18px;
+border-left: 5px solid #e18037;
+padding: 25px 35px 15px;
+}
+
+.center_blog_dt {
+background-image: url(../img/30.jpg);
+background-position: center;
+}
+.center_cont {
+background-image: url(../img/31.jpg);
+background-position: center;
+}
+/*********************blog_end****************/
+
+
+
+@media screen and (max-width : 767px){
+.blog_1r{
+margin-top:20px; 
+ }
+.blog_1r1 h4{
+text-align:center; 
+ }
+.blog_1dt2ir{
+margin-top:10px;
+text-align:center; 
+ }
+.blog_1dt2ir p{
+text-align:left; 
+ }
+.contact_1l h2{
+text-align:center; 
+ }
+.contact_1li{
+text-align:center;  
+ }
+.contact_1lir{
+margin-top:15px; 
+ }
+.contact_1r{
+margin-top:15px;
+padding:15px!important;
+text-align:center; 
+ }
+.contact_1r p{
+text-align:left; 
+ }
+ }
+
+@media (min-width:576px) and (max-width:767px) {
+.blog_1dt2ir{
+margin-top:0;
+text-align:left; 
+ }
+ }
+@media (min-width:768px) and (max-width:991px) {
+.blog_1r1 h6{
+font-size:13px; 
+ }
+.contact_1lil span{
+font-size:35px!important; 
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.contact_1lil span{
+font-size:55px!important; 
+ }
+ }
+@media (min-width:1201px) and (max-width:1300px) {
+
+ }
+
+
+

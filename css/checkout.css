@@ -1,0 +1,53 @@
+/*
+Template Name: Wedding
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************checkout****************/
+.center_check {
+background-image: url(../img/46.jpg);
+background-position: center;
+}
+/*********************checkout_end****************/
+
+
+@media screen and (max-width : 767px){
+.checkout_1l h4{
+text-align:center; 
+ }
+.checkout_1l h6{
+text-align:center; 
+ }
+.checkout_1l2il .form-control{
+margin-bottom:10px; 
+ }
+.checkout_1r{
+margin-top:20px;  
+ }
+.checkout_1r h4{
+text-align:center; 
+ }
+ }
+
+@media (min-width:576px) and (max-width:767px) {
+
+ }
+@media (min-width:768px) and (max-width:991px) {
+.checkout_1r .button_1{
+padding:15px 10px;
+font-size:12px; 
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.checkout_1r .button_1{
+padding:15px 10px;
+font-size:12px; 
+ }
+ }
+
+
+

@@ -1,0 +1,147 @@
+/*
+Template Name: Wedding
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************center****************/
+.center_h {
+background-image: url(../img/1.jpg);
+background-position: center center;
+background-size: cover;
+}
+.center_om {
+padding-top: 270px;
+padding-bottom: 70px;
+}
+.center_h1 h3{
+border-top:1px solid #fff; 
+border-bottom:1px solid #fff; 
+display:inline-block;
+ }
+/*********************center_end****************/
+
+/*********************story****************/
+.story_1l{
+padding-top:60px; 
+ }
+.story_2l{
+border-right:1px solid #fadac2; 
+ }
+.story_3i {
+width:600px;
+height:600px; 
+ }
+.story_3i{
+padding-top:130px; 
+ }
+/*********************story_end****************/
+
+/*********************time****************/
+.time_2m span{
+width:55px;
+height:55px;
+line-height:55px;
+transition: 0.3s; 
+ }
+.time_2m span:hover{
+background:#fff!important;
+color:#e18037!important;  
+ }
+/*********************time_end****************/
+
+
+@media screen and (max-width : 767px){
+.story_1l {
+padding-top: 0;
+}
+.story_1m {
+margin-top:15px;
+margin-bottom:15px; 
+ }
+.story_1m br{
+display:none; 
+ }
+.story_1m p{
+text-align:left;
+ }
+.story_2l {
+border:none;
+margin-top:10px;
+margin-bottom:10px;
+}
+.story_2l p{
+text-align:left;
+}
+.story_2l br{
+display:none;
+}
+.story_3i {
+width: 100%;
+height: 100%;
+border-radius:0!important;
+padding-top:40px;
+padding-bottom:40px;
+}
+.story_3i .font_60{
+font-size:30px!important; 
+ }
+
+.time_2l{
+text-align:center!important; 
+ }
+.time_2l p{
+text-align:left; 
+ }
+.time_2li{
+margin-top:20px!important; 
+ }
+.time_2m{
+margin-top:20px;  
+ }
+.attend_1lil{
+margin-top:8px;
+margin-bottom:8px;
+text-align:left;  
+ }
+.attend_1l{
+text-align:center; 
+ }
+.attend_1r br{
+display:none; 
+ }
+ }
+
+@media (min-width:576px) and (max-width:767px) {
+.story_3i ul{
+text-align:center!important; 
+ }
+ }
+@media (min-width:768px) and (max-width:991px) {
+.story_2l br{
+display:none; 
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1300px) {
+
+ }
+
+
+
+ #countdown {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    align-items: center;
+}
+
+#timer {
+    font-size: 5rem;
+    color: #ff4081;
+}

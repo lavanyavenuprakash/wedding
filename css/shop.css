@@ -1,0 +1,109 @@
+/*
+Template Name: Wedding
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************shop****************/
+.center_shop {
+background-image: url(../img/32.jpg);
+background-position: center;
+}
+.shop_2l1i1{
+display:none;
+transition: 0.3s;
+padding-top:40%; 
+ }
+.shop_2l:hover .shop_2l1i1{
+display:block;
+transition: 0.3s; 
+ }
+.center_shop_dt{
+background-image: url(../img/44.jpg);
+background-position: center; 
+ }
+ 
+.shop_1dt2 .nav-tabs {
+border-color: #fadac2;
+}
+.shop_1dt2 .nav-tabs .nav-link {
+font-weight: bold;
+padding: 15px 30px;
+color: #333;
+border-color: #fadac2 #fadac2 #fff;
+}
+.shop_1dt2 .nav-tabs .nav-link.active {
+border-color: #e18037 #e18037 #e18037;
+color: #fff;
+background: #e18037;
+}
+/*********************shop_end****************/
+
+
+
+@media screen and (max-width : 767px){
+.shop_1{
+text-align:center; 
+ }
+.shop_1ril{
+margin-top:10px; 
+ }
+.shop_2l{
+margin-top:8px;
+margin-bottom:8px;
+text-align:center; 
+ }
+.pages{
+margin-top:20px!important; 
+ }
+.shop_dt1r{
+margin-top:15px;
+ }
+.shop_dt1ril{
+margin-top:10px; 
+ }
+.shop_1dt2 .nav-tabs .nav-link {
+padding: 10px 10px;
+}
+.shop_1dt2 li {
+margin-left:0!important;
+margin-right:0!important;
+}
+.shop_1dt3 h3 {
+text-align:center; 
+ }
+.shop_1dt3 h5 {
+text-align:center; 
+ }
+.profile_i{
+text-align:center;  
+ }
+.shop_1dt3 h2{
+text-align:center; 
+ }
+ }
+
+@media (min-width:576px) and (max-width:767px) {
+
+ }
+@media (min-width:768px) and (max-width:991px) {
+.shop_2l1i1 .button{
+padding:10px 10px;
+font-size:14px; 
+ }
+.shop_dt1l img{
+min-height:450px; 
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1300px) {
+
+ }
+
+
+
